@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    header,footer {
+        padding-bottom:8px ;
+        background-color: #abebeb;
+        margin-top: 0;
+    }
+
+    footer-box> .container {
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    body  {
+        background-color: #f1f1f1 ;
+    }
+
+
+    header .container,
+    .footer-box {
+        display: flex;
+        align-items: center;
+        margin-top: 10PX;
+        margin-bottom: 10PX;
+
+        p {
+            font-size: 22px;
+            margin-right: 600px;
+            font-weight: bold;
+
+            .imgs-box> header .container {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    header h1 {
+        margin-right: 10px; 
+    }
+    
+    header img#gif {
+        max-width: 80px; 
+        height: auto;
+
+        margin-bottom: 10px;
+    }
+
+    h2, p {
+        font-weight: bold;
+    }
+
+    #imgs {
+        width: 100%;
+        border-radius: 10%;
+        margin-top: 25px;
+    }
+    
+    .container-text {
+        margin-top: 25px;
+    }
+    
+    h2, p {
+        font-weight: bold;
+    }
+
+    .card {
+        margin: 15px 0; 
+      }
+      .card img {
+        height: 200px; 
+        object-fit: cover; 
+      }
+
+
+      footer img {
+        max-width: 40px;
+        margin: 0 10px; 
+    }
+    
+    .footer-box .imgs-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    footer {
+        background-color: #abebeb;
+        padding: 10px 0;
+    }
+    
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    footer p {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .imgs-box {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .imgs-box img {
+        max-width: 30px; 
+        height: auto;
+    }
+    
+    @media (max-width: 576px) {
+        .imgs-box {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
